@@ -1,6 +1,3 @@
-import React from "react";
-
-
 const services = [
     { id: 1, text: "Обучающее видео" },
     { id: 2, text: "Онбординг видео для бизнеса" },
@@ -15,7 +12,7 @@ const services = [
 
 const ServiceContet = () => {
   return (
-    <div className="bg-[#dfdfdf] w-screen">
+    <div className="bg-[#dfdfdf] w-screen lg:mt-14">
       <div className="ml-4 mr-3.5">
         <h2 className="text-center text-3xl leading-[100%] font-semibold min-w-76 min-h-14 pt-14 mb-10 lg:text-5xl">
           Сделаем под ключ <br className="lg:hidden" />

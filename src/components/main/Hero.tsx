@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
         <AccardeonHero />
-        <div className="transform-[scale(1)] mt-10 mb-14 m-w-127 lg:mt-0">
+        <div className="transform-[scale(1)] mt-10 m-w-127 lg:mt-0">
           <img src="src/img/heroimg.png"/>
         </div>
       </div>
