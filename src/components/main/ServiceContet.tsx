@@ -23,7 +23,7 @@ const ServiceContet = () => {
             
             {services.map((service) => (
             <li className="text-xl font-semibold leading-[140%] flex items-center gap-3 mb-6 lg:text-4xl lg:mb-20 lg:max-w-105 lg:max-h-18">
-              <img src="src/img/checkpoint.png" alt="" className="w-10 lg:w-12"/>
+              <img src="public/img/checkpoint.png" alt="" className="w-10 lg:w-12"/>
               {service.text}
             </li>))}
             <div className="mb-9.25 lg:mb:21.25"></div>
