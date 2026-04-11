@@ -3,6 +3,7 @@ import Hero from "./components/main/Hero";
 import ServiceContet from "./components/main/ServiceContet";
 import "./index.css";
 import SlideSection from "./components/main/SlideSection";
+
 function App() {
   return (
     <div className="lg:w-auto lg:min-h-auto lg:overflow-hidden">
@@ -11,9 +12,8 @@ function App() {
         <Hero />
       </div>
       <ServiceContet />
-      <div className="overflow-hidden">
-        <SlideSection />
-      </div>
+      <SlideSection />
+      
     </div>
   );
 }
