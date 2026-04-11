@@ -20,7 +20,7 @@ const Hero = () => {
 
         <AccardeonHero />
         <div className="transform-[scale(1)] mt-10 m-w-127 lg:mt-0">
-          <img src="public/img//heroimg.png"/>
+          <img src="public/img/heroimg.png"/>
         </div>
       </div>
     </div>
