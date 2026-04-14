@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import AboutService from './aboutservice-slider/AboutService';
-import SliderComponent from './aboutservice-slider/SliderComponent';
+import AboutService from './AboutService';
+import SliderComponent from './SliderComponent';
 type typeSliderCards = {
     id: number;
     cardName: string;
@@ -64,10 +64,10 @@ const SlideSection = () => {
 
   return (
       <>
-        <div className="ml-4.25 mr-5 font-semibold text-3xl leading-[121%] mt-13.75 mb-10">Гарантировано только у нас весь комплекс работ</div>
+        <div className="ml-4.25 mr-5 font-semibold text-3xl leading-[121%] mt-13.75 mb-10 text-center">Гарантировано только у нас весь комплекс работ</div>
         
         <div className='block lg:hidden overflow-hidden'><SliderComponent SliderCards={SliderCards} setSliderCards={setSliderCards} /></div>
-        <div className='hidden lg:block overflow-hidden'><AboutService SliderCards={SliderCards}/></div>
+        <div className='lg:mr-16.5 lg:ml-16.5 hidden lg:block overflow-hidden'><AboutService SliderCards={SliderCards}/></div>
       </>
   );
 }

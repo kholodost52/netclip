@@ -2,7 +2,8 @@ import Header from "./components/header/Header";
 import Hero from "./components/main/Hero";
 import ServiceContet from "./components/main/ServiceContet";
 import "./index.css";
-import SlideSection from "./components/main/SlideSection";
+import SlideSection from "./components/main/aboutservice-slider/SlideSection";
+import CalculatorSection from "./components/main/CalcSection/CalculatorSection";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       </div>
       <ServiceContet />
       <SlideSection />
-      
+      <CalculatorSection/>
     </div>
   );
 }
